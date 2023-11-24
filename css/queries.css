@@ -1,0 +1,165 @@
+@media (max-width: 89em) {
+  .reserve {
+    height: 7rem;
+  }
+  .click-reserve {
+    text-align: center;
+  }
+}
+@media (max-width: 84em) {
+  .click-reserve {
+    padding: 1.8rem 1.4rem;
+  }
+}
+@media (max-width: 75em) {
+  .click-reserve {
+    padding: 1.8rem 3.2rem;
+  }
+  .order {
+    font-size: 2rem;
+  }
+  .order-p {
+    font-size: 1.4rem;
+  }
+  .order4 {
+    font-size: 1.6rem;
+  }
+  .contain {
+    width: 29rem;
+  }
+  .review {
+    width: 25rem;
+  }
+  .fa-quote-right {
+    left: 18rem;
+  }
+  .name {
+    font-size: 1.6rem;
+  }
+  .comment {
+    font-size: 1.4rem;
+  }
+  .menu-section {
+    row-gap: 4rem;
+    column-gap: 4rem;
+  }
+  .menu-section h1 {
+    text-align: center;
+    font-size: 2.2rem;
+  }
+  .main-menu li ul {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+  .menu-img {
+    height: 30rem;
+  }
+  .event-text h1 {
+    font-size: 3.4rem;
+  }
+  .event-text p {
+    font-size: 1.4rem;
+  }
+  .drink-pic {
+    width: 50rem;
+  }
+  .map-div {
+    width: 55rem;
+    height: 40rem;
+  }
+}
+
+@media (max-width: 59em) {
+  .nav-links {
+    display: none;
+  }
+  .open-nav {
+    display: none;
+  }
+  .nav-button {
+    display: block;
+  }
+  .nav-button-link {
+    top: -77.5rem;
+    left: 61.8rem;
+  }
+
+  .order {
+    font-size: 1.8rem;
+  }
+  .order-p {
+    font-size: 1.2rem;
+    width: 40rem;
+  }
+  .order4 {
+    font-size: 1.4rem;
+  }
+  .fa-quote-right {
+    left: 23rem;
+  }
+}
+
+@media (max-width: 48em) {
+  .nav-button-link {
+    top: -77.5rem;
+    left: 45rem;
+  }
+  .about-us {
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10rem;
+    width: 75%;
+    border: solid #e03131;
+    padding: 5rem;
+    border-radius: 1rem;
+  }
+  .reserve {
+    width: 50rem;
+  }
+  .reserve-form {
+    padding: 1rem 1.4rem;
+  }
+  .footer {
+    column-gap: 5rem;
+  }
+  .fa-quote-right {
+    left: 35rem;
+  }
+}
+@media (max-width: 34em) {
+  .nav-button-link {
+    top: -77.5rem;
+    left: 22rem;
+  }
+  .order-p {
+    width: 30rem;
+  }
+  .fa-quote-right {
+    left: 24rem;
+  }
+  .about-us {
+    margin-left: 7rem;
+  }
+  .footer p {
+    font-size: 0.8rem;
+  }
+  .heading-tertiary {
+    font-size: 1.6rem;
+  }
+  .footer-icons:link,
+  .footer-icons:visited {
+    font-size: 1.8rem;
+  }
+  .footer-btn {
+    font-size: 1rem;
+    padding: 1.4rem 3.2rem;
+  }
+  .reserve {
+    width: 40rem;
+  }
+  .reserve-form {
+    padding: 1rem 0rem;
+  }
+}

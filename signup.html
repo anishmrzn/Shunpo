@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Marck+Script&family=Mulish:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <section class="start container">
+      <section class="signup">
+        <section class="nav">
+          <div class="nav-logo">
+            <a href="index.html"
+              ><img class="nav-img" src="img/logo2.png" alt=""
+            /></a>
+            <p class="nav-name">Shunpo</p>
+          </div>
+          <div class="nav-link">
+            <a class="nav-links" href="index.html">Home</a>
+            <a class="nav-links" href="Food.html">Food</a>
+            <a class="nav-links" href="Drinks.html">Drinks</a>
+            <a class="nav-links" href="Events.html">Events</a>
+            <a class="nav-links" href="Contact.html">Contact Us</a>
+            <a class="nav-button" href="#">
+              <ion-icon
+                class="nav-button"
+                name="reorder-three-outline"
+              ></ion-icon>
+            </a>
+          </div>
+          <div class="overlay hidden"></div>
+        </section>
+        <div class="nav-btn hidden">
+        <div class="nav-button-linkk">
+          <a href="" class="remove-btn"><ion-icon name="close-outline"></ion-icon></a>
+          <a href="index.html" class="nav-button-open">Home</a>
+          <a href="Food.html" class="nav-button-links">Food</a>
+          <a href="Drinks.html" class="nav-button-links">Drinks</a>
+          <a href="Events.html" class="nav-button-links">Events</a>
+          <a href="Contact.html" class="nav-button-links">Contact Us</a>
+        </div>
+        </div>
+      </section>
+    </section>
+      <section class="container">
+        <div class="sign_up">
+          <h2>Sign Up</h2>
+          <form action="" class="login_form">
+            <div class="sign_name">
+              <div class="form1">
+                <label for="name" class="form_text">First Name</label>
+                <input class="form_box1" type="text" name="name" id="name" />
+              </div>
+              <div class="form1">
+                <label for="name" class="form_text">Last Name</label>
+                <input class="form_box1" type="text" name="name" id="name" />
+              </div>
+            </div>
+            <div class="form1">
+              <label for="email" class="form_text">E-mail</label>
+              <input class="form_box" type="text" name="email" id="email" />
+            </div>
+            <div class="form1">
+              <label for="password" class="form_text">Password</label>
+              <input class="form_box" type="password" name="password" />
+            </div>
+            <div class="form1">
+              <label for="password" class="form_text">Confirm Pasword</label>
+              <input
+                class="form_box"
+                type="text"
+                name="password"
+                id="password"
+              />
+            </div>
+            <input class="submit_btn" type="submit" value="Sign Up" />
+          </form>
+          <div class="after_signup">
+            <a href="#">Forgot Password</a>
+            <a href="login.html">Have a account? Log in</a>
+          </div>
+          <div class="login_icons">
+            <a
+              class="footer-icons"
+              href="https://www.facebook.com/"
+              target="_blank"
+            >
+              <ion-icon class="footer-icons" name="logo-facebook"></ion-icon>
+            </a>
+            <a
+              class="footer-icons"
+              href="https://www.instagram.com/"
+              target="_blank"
+            >
+              <ion-icon class="footer-icons" name="logo-instagram"></ion-icon>
+            </a>
+            <a
+              class="footer-icons"
+              href="https://www.twitter.com/"
+              target="_blank"
+            >
+              <ion-icon class="footer-icons" name="logo-twitter"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </section>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

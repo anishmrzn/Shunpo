@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Marck+Script&family=Mulish:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>Shunpo</title>
+  </head>
+  <body>
+    <section class="start container">
+      <section class="hero">
+        <div class="outer">
+          <section class="nav">
+            <div class="nav-logo">
+              <a href="index.html"
+                ><img class="nav-img" src="img/logo2.png" alt=""
+              /></a>
+              <p class="nav-name">Shunpo</p>
+            </div>
+            <div class="nav-link">
+              <a class="open-nav" href="index.html">Home</a>
+              <a class="nav-links" href="Food.html">Food</a>
+              <a class="nav-links" href="Drinks.html">Drinks</a>
+              <a class="nav-links" href="Events.html">Events</a>
+              <a class="nav-links" href="Contact.html">Contact Us</a>
+              <a class="nav-button" href="#">
+                <ion-icon
+                  class="nav-button"
+                  name="reorder-three-outline"
+                ></ion-icon>
+              </a>
+            </div>
+          </section>
+
+          <div class="overlay hidden"></div>
+          <a class="logo-link" href="#"
+            ><img class="logo" src="img/logo3.png" alt="logo"
+          /></a>
+          <div class="reserve">
+            <form action="#">
+              <div class="reserve-form">
+                <label for="">Date</label>
+                <select id="select-where" required>
+                  <option value="">Thu, Apr 13</option>
+                  <option value="">Fri, Apr 13</option>
+                  <option value="">Sat, Apr 13</option>
+                  <option value="">Sun, Apr 13</option>
+                  <option value="">Mon, Apr 13</option>
+                </select>
+              </div>
+              <span class="dash">|</span>
+              <div class="reserve-form">
+                <label for="">Time</label>
+                <select id="select-where" required>
+                  <option value="">4:00 PM</option>
+                  <option value="">5:00 PM</option>
+                  <option value="">6:00 PM</option>
+                  <option value="">7:00 PM</option>
+                  <option value="">8:00 PM</option>
+                  <option value="">9:00 PM</option>
+                  <option value="">10:00 PM</option>
+                  <option value="">11:00 PM</option>
+                </select>
+              </div>
+              <span class="dash">|</span>
+              <div class="reserve-form">
+                <label for="">Party Size</label>
+                <select id="select-where" required>
+                  <option value="">2 people</option>
+                  <option value="">3 people</option>
+                  <option value="">4 people</option>
+                  <option value="">5 people</option>
+                  <option value="">6 people</option>
+                  <option value="">7 people</option>
+                  <option value="">8 people</option>
+                </select>
+              </div>
+            </form>
+            <a href="login.html" class="click-reserve">Reserve now</a>
+          </div>
+        </div>
+      </section>
+      <div class="nav-btn hidden">
+        <div class="nav-button-link">
+          <ion-icon class="remove-btn" name="close-outline"></ion-icon>
+
+          <a href="index.html" class="nav-button-open">Home</a>
+          <a href="Food.html" class="nav-button-links">Food</a>
+          <a href="Drinks.html" class="nav-button-links">Drinks</a>
+          <a href="Events.html" class="nav-button-links">Events</a>
+          <a href="Contact.html" class="nav-button-links">Contact Us</a>
+        </div>
+      </div>
+    </section>
+    <section class="about container">
+      <div class="about-us">
+        <div class="about-img1"></div>
+        <div class="about-1">
+          <p class="order-1 order">ORDER PICK UP OR DELVERY</p>
+          <a href="login.html" class="order-link">ORDER NOW</a>
+        </div>
+        <div class="about-1">
+          <h3 class="order-2 order">
+            WE ARE OPEN FOR INDOOR AND OUTDOOR DINNING
+          </h3>
+          <p class="order-p">
+            Shunpo is open for indoor dinning 7 days a week 4pm to 10pm and
+            outdoor patio dinning Fridays and Saturdays 4pm – 10pm .
+            Reservations available for indoor dinning only and walk ins are
+            welcome for both indoor and outdoor
+          </p>
+        </div>
+        <div class="about-img2"></div>
+        <div class="about-img3"></div>
+        <div class="about-1">
+          <p class="order-3 order">
+            <em>"LAUGHTER is BRIGHTER where food is best"</em>
+          </p>
+          <p class="order-4">-MICHAEL BAUER | SF CHRONICLE</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials grid-3-cols container">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="image">
+              <img src="customer/4.jpg" alt="" />
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="customer-name">
+              <span class="name">James Sung</span>
+            </div>
+            <div class="review">
+              <span class="comment"
+                ><em
+                  >"The menu at Shunpo is a testament to the chef's artistry and
+                  passion for flavors. Each dish is a carefully crafted
+                  masterpiece, showcasing a fusion of culinary techniques and
+                  the finest ingredients. From the first bite to the last, the
+                  flavors dance on your palate, leaving you craving more."</em
+                ></span
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="image">
+              <img src="customer/cutiee.jpg" alt="" />
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="customer-name">
+              <span class="name">Snoww</span>
+            </div>
+            <div class="review">
+              <span class="comment"
+                ><em
+                  >"The menu at Shunpo is a testament to the chef's artistry and
+                  passion for flavors. Each dish is a carefully crafted
+                  masterpiece, showcasing a fusion of culinary techniques and
+                  the finest ingredients. From the first bite to the last, the
+                  flavors dance on your palate, leaving you craving more."</em
+                ></span
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="image">
+              <img src="customer/1.jpg" alt="" />
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="customer-name">
+              <span class="name">Sophia Rodriguez</span>
+            </div>
+            <div class="review">
+              <span class="comment"
+                ><em
+                  >"This cozy restaurant has left the best impressions!
+                  Hospitable hosts, delicious dishes, beautiful presentation,
+                  wide wine list and wonderful dessert. I recommend to everyone!
+                  I would like to come back here again and again."</em
+                ></span
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="image">
+              <img src="customer/3.jpg" alt="" />
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="customer-name">
+              <span class="name">Isabella Thompson</span>
+            </div>
+            <div class="review">
+              <span class="comment"
+                ><em
+                  >"The ambiance at Shunpo is intimate and inviting, with a
+                  minimalist decor that exudes elegance. The soft lighting and
+                  thoughtfully arranged seating create an atmosphere of
+                  tranquility, perfect for enjoying a memorable meal with loved
+                  ones."</em
+                ></span
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="image">
+              <img src="customer/2.jpg" alt="" />
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="customer-name">
+              <span class="name">Ethan Anderson</span>
+            </div>
+            <div class="review">
+              <span class="comment"
+                ><em
+                  >"The menu at Shunpo is a testament to the chef's artistry and
+                  passion for flavors. Each dish is a carefully crafted
+                  masterpiece, showcasing a fusion of culinary techniques and
+                  the finest ingredients. From the first bite to the last, the
+                  flavors dance on your palate, leaving you craving more."</em
+                ></span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev prev-btn"></div>
+        <div class="swiper-button-next next-btn"></div>
+      </div>
+    </section>
+
+    <section class="footer container">
+      <div class="container">
+        <h2 class="heading-tertiary">Shunpo</h2>
+        <p>M8G8+RRW, Gabahal Rd,</p>
+        <p>Lalitpur 44600</p>
+        <p>Cross Street: Labim Mall.</p>
+        <p>Located 1 mile from the Pulchowk campus</p>
+      </div>
+      <div class="container">
+        <h3 class="heading-tertiary">Lunch</h3>
+        <p>Take-out & Dine-In (Daily): 11am -3pm</p>
+        <h3 class="heading-tertiary">Dinner</h3>
+        <p>Indoor dinning (Daily) : 4pm – 10pm</p>
+        <p>Outdoor dinning (Thur – Sun) 4pm-10pm</p>
+        <p>>Happy Hour (Mon – Fri) 4pm – 6pm</p>
+        <p>9803204103,9865232838</p>
+        <p>Shunpoistheebest@gamil.com</p>
+      </div>
+      <div class="container">
+        <a
+          class="footer-icons"
+          href="https://www.facebook.com/"
+          target="_blank"
+        >
+          <ion-icon class="footer-icons" name="logo-facebook"></ion-icon>
+        </a>
+        <a
+          class="footer-icons"
+          href="https://www.instagram.com/"
+          target="_blank"
+        >
+          <ion-icon class="footer-icons" name="logo-instagram"></ion-icon>
+        </a>
+        <a class="footer-icons" href="https://www.twitter.com/" target="_blank">
+          <ion-icon class="footer-icons" name="logo-twitter"></ion-icon>
+        </a>
+        <p class="footer-signup">Sign up to receive news and updates</p>
+        <a href="signup.html"><button class="footer-btn">Sign Up</button></a>
+      </div>
+    </section>
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        slidesPerView: "auto",
+        loop: true,
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+          },
+          640: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
