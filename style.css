@@ -126,15 +126,15 @@
   height: 75rem;
   margin-bottom: 2.4rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/0.webp);
+    url(../Shunpo/img/0.webp);
   background-size: cover;
 }
 
 .hero1 {
   height: 60vh;
   margin-bottom: 2.4rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(/img/10.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Shunpo/img/3.webp);
   background-size: cover;
   position: relative;
 }
@@ -142,7 +142,7 @@
   height: 60vh;
   margin-bottom: 2.4rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(/img/drinks4.webp);
+    url(../Shunpo/img/drinks4.webp);
   background-position: 0% 75%;
   background-size: cover;
   position: relative;
@@ -151,7 +151,7 @@
   height: 60vh;
   margin-bottom: 2.4rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(/img/4.webp);
+    url(../Shunpo/img/4.webp);
   background-position: center;
   background-size: cover;
 
@@ -161,7 +161,7 @@
   height: 60vh;
   margin-bottom: 2.4rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(/img/events1.webp);
+    url(../Shunpo/img/3.webp);
   background-size: cover;
   position: relative;
   background-position: center;
@@ -248,19 +248,19 @@
 .about-img1 {
   height: 40rem;
   width: auto;
-  background-image: url(/img/9.webp);
+  background-image: url(../Shunpo/img/9.webp);
   background-size: cover;
   background-position: center;
 }
 .about-img2 {
   height: 40rem;
-  background-image: url(/img/10.webp);
+  background-image: url(../Shunpo/img/10.webp);
   background-size: cover;
   background-position: center;
 }
 .about-img3 {
   height: 40rem;
-  background-image: url(/img/11.webp);
+  background-image: url(../Shunpo/img/11.webp);
   background-size: cover;
   background-position: center;
 }
@@ -509,19 +509,19 @@
 /*  */
 /* EVENTS */
 .event-img1 {
-  background-image: url(/img/events2.webp);
+  background-image: url(../Shunpo/img/events2.webp);
   height: 40rem;
   background-size: cover;
   background-position: center;
 }
 .event-img2 {
-  background-image: url(/img/events3.webp);
+  background-image: url(../Shunpo/img/events3.webp);
   height: 40rem;
   background-size: cover;
   background-position: center;
 }
 .event-img3 {
-  background-image: url(/img/events4.webp);
+  background-image: url(../Shunpo/img/events4.webp);
   height: 40rem;
   background-size: cover;
   background-position: center;
@@ -582,7 +582,7 @@
 /* Log in */
 .login {
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url(/img/12.webp);
+    url(../Shunpo/img/12.webp);
   background-size: cover;
   position: relative;
   height: 120vh;
@@ -670,7 +670,7 @@
 /* Sign up */
 .signup {
   background-image: linear-gradient(rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.342)),
-    url(/img/12.webp);
+    url(../Shunpo/img/12.webp);
   background-size: cover;
   position: relative;
   height: 180vh;
